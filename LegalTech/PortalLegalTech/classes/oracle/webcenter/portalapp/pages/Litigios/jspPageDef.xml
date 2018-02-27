@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel"
+                version="11.1.1.64.93" id="jspPageDef"
+                Package="oracle.webcenter.portalapp.pages.Litigios">
+  <parameters>
+    <parameter id="page_info"
+               value="title=Litigios.jsp;desc=;keywords=;createdBy=weblogic;createDate=2018-02-23T13:10:15;lastUpdatedBy=weblogic;lastUpdateDate=2018-02-23T13:10:15;permissionClass=oracle.webcenter.security.auth.HierarchicalResourcePermission;target=serviceID=oracle.webcenter.page,scopeID=s8bba98ff_4cbb_40b8_beee_296c916a23ed,resourceID=/oracle/webcenter/portalapp/pages/Litigios.jsp.jspx;excluded=false;style="/>
+    <parameter id="page_title" value="Litigios"/>
+  </parameters>
+  <executables>
+    <variableIterator id="variables"/>
+  </executables>
+  <bindings/>
+</pageDefinition>

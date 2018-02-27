@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="11.1.1.64.93" id="DataBindings" SeparateXMLFiles="false"
+             Package="com.legalTech.portal" ClientType="Generic"
+             PageMapClass="oracle.jbo.uicli.mom.DynamicPageMapImpl"
+             BasePageDefPackageName="pageDefs">
+  <pageMap>
+    <page path="/oracle/webcenter/portalapp/pages/navigation-renderer.jspx"
+          usageId="portal_navigation_rendererPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/home.jspx"
+          usageId="portal_homePageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/login.jspx"
+          usageId="portal_loginPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/error.jspx"
+          usageId="portal_errorPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pagetemplates/pageTemplate_globe.jspx"
+          usageId="portal_pageTemplate_globePageDef"/>
+    <page path="/oracle/webcenter/portalapp/pagetemplates/pageTemplate_swooshy.jspx"
+          usageId="portal_pageTemplate_swooshyPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/Contratos.jsp"
+          usageId="com_legalTech_portal_ContratosPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/GobiernoCoorporativo.jsp"
+          usageId="com_legalTech_portal_GobiernoCoorporativoPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/Litigios.jsp"
+          usageId="com_legalTech_portal_LitigiosPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/MarcasyPatentes.jsp"
+          usageId="com_legalTech_portal_MarcasyPatentesPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/MesaAyuda.jsp"
+          usageId="com_legalTech_portal_MesaAyudaPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/Contratos.jsp.jspx"
+          usageId="com_legalTech_portal_jspPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/Litigios.jsp.jspx"
+          usageId="com_legalTech_portal_jspPageDef1"/>
+    <page path="/oracle/webcenter/portalapp/pages/MarcasyPatentes.jsp.jspx"
+          usageId="com_legalTech_portal_jspPageDef2"/>
+    <page path="/oracle/webcenter/portalapp/pages/GobiernoCoorporativo.jsp.jspx"
+          usageId="com_legalTech_portal_jspPageDef3"/>
+    <page path="/oracle/webcenter/portalapp/pages/MesaAyuda.jsp.jspx"
+          usageId="com_legalTech_portal_jspPageDef4"/>
+    <page path="/oracle/webcenter/portalapp/pages/Modulos.jsp"
+          usageId="com_legalTech_portal_ModulosPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/Modulos.jsp.jspx"
+          usageId="com_legalTech_portal_jspPageDef5"/>
+    <page path="/oracle/webcenter/portalapp/pages/Contratos.jspx"
+          usageId="com_legalTech_portal_ContratosPageDef1"/>
+    <page path="/oracle/webcenter/portalapp/pages/Litigios.jspx"
+          usageId="com_legalTech_portal_LitigiosPageDef1"/>
+    <page path="/oracle/webcenter/portalapp/pages/GobiernoCorporativo.jspx"
+          usageId="com_legalTech_portal_GobiernoCorporativoPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/MesaAyuda.jspx"
+          usageId="com_legalTech_portal_MesaAyudaPageDef1"/>
+    <page path="/oracle/webcenter/portalapp/pages/PropiedadIntelectual.jspx"
+          usageId="com_legalTech_portal_PropiedadIntelectualPageDef"/>
+  </pageMap>
+  <definitionFactories>
+    <factory nameSpace="http://xmlns.oracle.com/portlet/bindings"
+             className="oracle.adf.model.portlet.binding.PortletBindingDefFactoryImpl"/>
+    <dtfactory className="oracle.adfdtinternal.view.faces.portlet.PortletDefinitionDTFactory"/>
+    <factory nameSpace="http://xmlns.oracle.com/adf/controller/binding"
+             className="oracle.adf.controller.internal.binding.TaskFlowBindingDefFactoryImpl"/>
+    <dtfactory className="oracle.adf.controller.internal.dtrt.binding.BindingDTObjectFactory"/>
+  </definitionFactories>
+  <pageDefinitionUsages>
+    <page id="portal_navigation_rendererPageDef"
+          path="oracle.webcenter.portalapp.pages.navigation_rendererPageDef"/>
+    <page id="portal_homePageDef"
+          path="oracle.webcenter.portalapp.pages.homePageDef"/>
+    <page id="portal_loginPageDef"
+          path="oracle.webcenter.portalapp.pages.loginPageDef"/>
+    <page id="portal_errorPageDef"
+          path="oracle.webcenter.portalapp.pages.errorPageDef"/>
+    <page id="portal_pageTemplate_globePageDef"
+          path="oracle.webcenter.portalapp.pagetemplates.pageTemplate_globePageDef"/>
+    <page id="portal_pageTemplate_swooshyPageDef"
+          path="oracle.webcenter.portalapp.pagetemplates.pageTemplate_swooshyPageDef"/>
+    <page id="com_legalTech_portal_ContratosPageDef"
+          path="oracle.webcenter.portalapp.pages.ContratosPageDef"/>
+    <page id="com_legalTech_portal_GobiernoCoorporativoPageDef"
+          path="oracle.webcenter.portalapp.pages.GobiernoCoorporativoPageDef"/>
+    <page id="com_legalTech_portal_LitigiosPageDef"
+          path="oracle.webcenter.portalapp.pages.LitigiosPageDef"/>
+    <page id="com_legalTech_portal_MarcasyPatentesPageDef"
+          path="oracle.webcenter.portalapp.pages.MarcasyPatentesPageDef"/>
+    <page id="com_legalTech_portal_MesaAyudaPageDef"
+          path="oracle.webcenter.portalapp.pages.MesaAyudaPageDef"/>
+    <page id="com_legalTech_portal_jspPageDef"
+          path="oracle.webcenter.portalapp.pages.Contratos.jspPageDef"/>
+    <page id="com_legalTech_portal_jspPageDef1"
+          path="oracle.webcenter.portalapp.pages.Litigios.jspPageDef"/>
+    <page id="com_legalTech_portal_jspPageDef2"
+          path="oracle.webcenter.portalapp.pages.MarcasyPatentes.jspPageDef"/>
+    <page id="com_legalTech_portal_jspPageDef3"
+          path="oracle.webcenter.portalapp.pages.GobiernoCoorporativo.jspPageDef"/>
+    <page id="com_legalTech_portal_jspPageDef4"
+          path="oracle.webcenter.portalapp.pages.MesaAyuda.jspPageDef"/>
+    <page id="com_legalTech_portal_ModulosPageDef"
+          path="oracle.webcenter.portalapp.pages.ModulosPageDef"/>
+    <page id="com_legalTech_portal_jspPageDef5"
+          path="oracle.webcenter.portalapp.pages.Modulos.jspPageDef"/>
+    <page id="com_legalTech_portal_ContratosPageDef1"
+          path="oracle.webcenter.portalapp.pages.ContratosPageDef1"/>
+    <page id="com_legalTech_portal_LitigiosPageDef1"
+          path="oracle.webcenter.portalapp.pages.LitigiosPageDef1"/>
+    <page id="com_legalTech_portal_GobiernoCorporativoPageDef"
+          path="oracle.webcenter.portalapp.pages.GobiernoCorporativoPageDef"/>
+    <page id="com_legalTech_portal_MesaAyudaPageDef1"
+          path="oracle.webcenter.portalapp.pages.MesaAyudaPageDef1"/>
+    <page id="com_legalTech_portal_PropiedadIntelectualPageDef"
+          path="oracle.webcenter.portalapp.pages.PropiedadIntelectualPageDef"/>
+  </pageDefinitionUsages>
+</Application>

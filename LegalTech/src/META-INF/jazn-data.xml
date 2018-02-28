@@ -3609,6 +3609,11 @@
                                 <name>serviceID=oracle.webcenter.page,scopeID=s8bba98ff_4cbb_40b8_beee_296c916a23ed,resourceID=/oracle/webcenter/portalapp/pages/MesaAyuda.jspx</name>
                                 <actions>view</actions>
                             </permission>
+                            <permission>
+                                <class>oracle.adf.share.security.authorization.RegionPermission</class>
+                                <name>oracle.webcenter.portalapp.pages.MesaAyudaPageDef</name>
+                                <actions>view</actions>
+                            </permission>
                         </permissions>
                     </grant>
                     <grant>
@@ -3770,6 +3775,41 @@
                                 <class>oracle.webcenter.security.auth.HierarchicalResourcePermission</class>
                                 <name>serviceID=oracle.webcenter.page,scopeID=s8bba98ff_4cbb_40b8_beee_296c916a23ed,resourceID=/oracle/webcenter/portalapp/pages/MesaAyuda.jspx</name>
                                 <actions>personalize,view</actions>
+                            </permission>
+                            <permission>
+                                <class>oracle.adf.share.security.authorization.RegionPermission</class>
+                                <name>oracle.webcenter.portalapp.pages.NuevoContratoPageDef</name>
+                                <actions>view</actions>
+                            </permission>
+                            <permission>
+                                <class>oracle.adf.share.security.authorization.RegionPermission</class>
+                                <name>oracle.webcenter.portalapp.pages.MesaAyudaPageDef</name>
+                                <actions>view</actions>
+                            </permission>
+                            <permission>
+                                <class>oracle.adf.share.security.authorization.RegionPermission</class>
+                                <name>oracle.webcenter.portalapp.pages.MarcasyPatentesPageDef</name>
+                                <actions>view</actions>
+                            </permission>
+                            <permission>
+                                <class>oracle.adf.share.security.authorization.RegionPermission</class>
+                                <name>oracle.webcenter.portalapp.pages.ContratosPageDef</name>
+                                <actions>view</actions>
+                            </permission>
+                            <permission>
+                                <class>oracle.adf.share.security.authorization.RegionPermission</class>
+                                <name>oracle.webcenter.portalapp.pages.ContratosHistoricoPageDef</name>
+                                <actions>view</actions>
+                            </permission>
+                            <permission>
+                                <class>oracle.adf.share.security.authorization.RegionPermission</class>
+                                <name>oracle.webcenter.portalapp.pages.GobiernoCoorporativoPageDef</name>
+                                <actions>view</actions>
+                            </permission>
+                            <permission>
+                                <class>oracle.adf.share.security.authorization.RegionPermission</class>
+                                <name>oracle.webcenter.portalapp.pages.LitigiosPageDef</name>
+                                <actions>view</actions>
                             </permission>
                         </permissions>
                     </grant>

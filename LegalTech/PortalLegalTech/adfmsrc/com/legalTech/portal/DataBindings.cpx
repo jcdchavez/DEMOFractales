@@ -51,6 +51,10 @@
           usageId="com_legalTech_portal_MesaAyudaPageDef1"/>
     <page path="/oracle/webcenter/portalapp/pages/PropiedadIntelectual.jspx"
           usageId="com_legalTech_portal_PropiedadIntelectualPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/ContratosNuevo.jspx"
+          usageId="com_legalTech_portal_NuevoContratoPageDef"/>
+    <page path="/oracle/webcenter/portalapp/pages/ContratosHistorico.jspx"
+          usageId="com_legalTech_portal_ContratosHistoricoPageDef"/>
   </pageMap>
   <definitionFactories>
     <factory nameSpace="http://xmlns.oracle.com/portlet/bindings"
@@ -107,5 +111,9 @@
           path="oracle.webcenter.portalapp.pages.MesaAyudaPageDef1"/>
     <page id="com_legalTech_portal_PropiedadIntelectualPageDef"
           path="oracle.webcenter.portalapp.pages.PropiedadIntelectualPageDef"/>
+    <page id="com_legalTech_portal_NuevoContratoPageDef"
+          path="oracle.webcenter.portalapp.pages.NuevoContratoPageDef"/>
+    <page id="com_legalTech_portal_ContratosHistoricoPageDef"
+          path="oracle.webcenter.portalapp.pages.ContratosHistoricoPageDef"/>
   </pageDefinitionUsages>
 </Application>

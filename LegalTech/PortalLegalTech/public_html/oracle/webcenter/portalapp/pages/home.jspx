@@ -49,7 +49,8 @@
                                       inlineStyle="width:150px; height:150px;"/>
                             <af:commandImageLink text="Contratos"
                                                  id="cil1"
-                                                 inlineStyle="text-align:center; font-weight:bold; font-size:medium; color:Gray;"/>
+                                                 inlineStyle="text-align:center; font-weight:bold; font-size:medium; color:Gray;"
+                                                 action="Contratos"/>
                           </af:panelGroupLayout>
                           <af:panelGroupLayout id="pgl10" layout="vertical"
                                                inlineStyle="padding:10.0%;"
@@ -59,7 +60,8 @@
                                       inlineStyle="width:150px; height:150px;"/>
                             <af:commandImageLink text="Litigios"
                                                 id="ci12"
-                                                inlineStyle="text-align:center; font-weight:bold; font-size:medium; color:Gray;"/>
+                                                inlineStyle="text-align:center; font-weight:bold; font-size:medium; color:Gray;"
+                                                 action="Litigios"/>
                           </af:panelGroupLayout>
                         </af:panelGroupLayout>
                         <af:panelGroupLayout id="pgl7" halign="center"
@@ -73,7 +75,8 @@
                                       inlineStyle="width:150px; height:150px;"/>
                             <af:commandImageLink text="Propiedad intelectual"
                                                 id="ci13"
-                                                inlineStyle="text-align:center; font-weight:bold; font-size:medium; color:Gray;"/>
+                                                inlineStyle="text-align:center; font-weight:bold; font-size:medium; color:Gray;"
+                                                 action="PrpiedadIntelectual"/>
                           </af:panelGroupLayout>
                           <af:panelGroupLayout id="pgl12" layout="vertical"
                                                inlineStyle="padding:10.0%;"
@@ -83,7 +86,8 @@
                                       inlineStyle="width:150px; height:150px;"/>
                             <af:commandImageLink text="Gobierno Coorporativo"
                                                 id="ci14"
-                                                inlineStyle="text-align:center; font-weight:bold; font-size:medium; color:Gray;"/>
+                                                inlineStyle="text-align:center; font-weight:bold; font-size:medium; color:Gray;"
+                                                 action="Gobierno"/>
                           </af:panelGroupLayout>
                         </af:panelGroupLayout>
                       </af:panelGroupLayout>

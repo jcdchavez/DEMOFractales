@@ -12,7 +12,7 @@
           <f:facet name="content">
                     <af:panelGroupLayout id="pgl1" layout="horizontal"
                                styleClass="AFStretchWidth" valign="top">
-            <af:panelGroupLayout id="pgl4" styleClass="AFStretchWidth"
+             <af:panelGroupLayout id="pgl4" styleClass="AFStretchWidth"
                                  layout="vertical" inlineStyle="width:166px;"
                                  halign="center" valign="top">
               <af:spacer width="10" height="10" id="s1"/>
@@ -117,7 +117,7 @@
                 </af:panelGridLayout>
               </af:showDetail>
               <af:showDetail disclosed="true" id="sd2"
-                             undisclosedText="Contratos existente"
+                             undisclosedText="Contratos concluidos"
                              styleClass="AFStretchWidth">
                 <af:table var="row" rowBandingInterval="0" id="t1"
                           styleClass="AFStretchWidth">

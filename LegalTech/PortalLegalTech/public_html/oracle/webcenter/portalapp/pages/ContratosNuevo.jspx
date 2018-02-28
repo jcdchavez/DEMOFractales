@@ -36,59 +36,45 @@
               <af:panelGroupLayout id="pgl3" styleClass="AFStretchWidth"
                                    inlineStyle="background-color:Silver;"
                                    layout="horizontal">
-                <af:outputFormatted value="Contratos" id="of1"
+                <af:outputFormatted value="Solicitud de Convenios, Contratos y documentos Legales." id="of1"
                                     inlineStyle="font-size:large; "/>
-              </af:panelGroupLayout>
+        </af:panelGroupLayout>
         <af:spacer width="850" height="10" id="s5"/>
         <af:showDetail disclosed="true" id="sd1"
-                             undisclosedText="Búsqueda de contratos">
-                <af:panelGridLayout id="pgl2">
-                  <af:gridRow marginTop="5px" height="auto" id="gr3">
-                    <af:gridCell marginStart="5px" width="auto" id="gc4">
-                      <af:inputText label="Número de Contrato" id="it1"/>
-                    </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc2">
-                      <af:inputListOfValues label="Abogado Solicitante"
-                                            popupTitle="Search and Result Dialog"
-                                            id="ilov1"/>
-                    </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc8">
-                      <af:inputListOfValues label="Empresa Solicitante"
-                                            popupTitle="Search and Result Dialog"
-                                            id="ilov2"/>
-                    </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc18"/>
-                    <af:gridCell marginStart="5px" width="auto" id="gc15"/>
-                    <af:gridCell marginStart="5px" marginEnd="5px" width="auto"
-                                 id="gc5"/>
-                  </af:gridRow>
-                  <af:gridRow marginTop="5px" height="auto" id="gr1">
-                    <af:gridCell marginStart="5px" width="auto" id="gc16">
-                      <af:selectOneRadio label="Estado del contrato" id="sor1"
-                                         layout="horizontal">
-                        <af:selectItem label="En proceso" value="proceso"
-                                       id="si10"/>
-                        <af:selectItem label="Cancelado" value="cancelado"
-                                       id="si9"/>
-                        <af:selectItem label="Finalizado" value="finalizado"
-                                       id="si11"/>
-                      </af:selectOneRadio>
-                    </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc7">
-                      <af:inputText label="Fecha de inicio" id="it2"/>
-                    </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc14">
-                      <af:inputText label="Fecha fin" id="it3"/>
-                    </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc12"/>
-                    <af:gridCell marginStart="5px" width="auto" id="gc13"/>
-                    <af:gridCell marginStart="5px" marginEnd="5px" width="auto"
-                                 id="gc6"/>
-                  </af:gridRow>
-                  <af:gridRow marginTop="5px" marginBottom="5px" height="auto"
-                              id="gr2">
-                    <af:gridCell marginStart="5px" width="auto" id="gc1">
-            <af:selectOneChoice label="Pais" id="soc1">
+                       undisclosedText="Datos del solicitante">
+         <af:panelGridLayout id="pgl2">
+          <af:gridRow marginTop="5px" height="auto" id="gridRow1">
+           <af:gridCell marginStart="5px" width="auto" id="gridCell1">
+            <af:inputText label="Número de Contrato" id="inputText1"
+                          readOnly="true" value="00007"/>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell2"/>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell3"/>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell4"/>
+          </af:gridRow>
+          <af:gridRow marginTop="5px" height="auto" id="gr3">
+           <af:gridCell marginStart="5px" width="auto" id="gc4">
+            <af:inputListOfValues label="Abogado Solicitante"
+                                  popupTitle="Search and Result Dialog"
+                                  id="ilov1"/>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gc18">
+            <af:inputListOfValues label="Cargo"
+                                  popupTitle="Search and Result Dialog"
+                                  id="ilov2"/>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gc2">
+            <af:inputListOfValues label="Planta/Oficina"
+                                  popupTitle="Search and Result Dialog"
+                                  id="ilov3"/>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gc8">
+            <af:inputText label="Extensión" id="it1"/>
+           </af:gridCell>
+          </af:gridRow>
+          <af:gridRow marginTop="5px" height="auto" id="gr1">
+           <af:gridCell marginStart="5px" width="auto" id="gc16">
+            <af:selectOneChoice label="Paí de origen" id="soc1">
              <af:selectItem label="México" value="mx" id="si5"/>
              <af:selectItem label="Estados Unidos" value="eu" id="si4"/>
              <af:selectItem label="Colombia" value="co" id="si1"/>
@@ -96,25 +82,110 @@
              <af:selectItem label="España" value="es" id="si3"/>
             </af:selectOneChoice>
            </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc9">
-            <af:selectOneChoice label="Región" id="soc2">
+           <af:gridCell marginStart="5px" width="auto" id="gc7">
+            <af:selectOneChoice label="Área" id="soc2">
              <af:selectItem label="Región 1" value="r1" id="si7"/>
              <af:selectItem label="Región 2" value="r2" id="si8"/>
              <af:selectItem label="Región 3" value="r3" id="si6"/>
             </af:selectOneChoice>
            </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc11">
-                      <af:commandButton text="Limpiar" id="cb4"/>
-                    </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc17">
-                      <af:commandButton text="Buscar" id="cb5"/>
-                    </af:gridCell>
-                    <af:gridCell marginStart="5px" width="auto" id="gc10"/>
-                    <af:gridCell marginStart="5px" marginEnd="5px" width="auto"
-                                 id="gc3"/>
-                  </af:gridRow>
-                </af:panelGridLayout>
-              </af:showDetail>
+           <af:gridCell marginStart="5px" width="auto" id="gc14">
+            <af:selectOneChoice label="Dirección" id="soc3">
+             <af:selectItem label="Dirección Juridica" value="d1" id="si9"/>
+             <af:selectItem label="Dirección Financiera" value="d2" id="si10"/>
+             <af:selectItem label="Dirección de Proyectos" value="d3"
+                            id="si11"/>
+            </af:selectOneChoice>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gc12">
+            <af:inputListOfValues label="Jefe Inmediato"
+                                  popupTitle="Search and Result Dialog"
+                                  id="ilov4"/>
+           </af:gridCell>
+          </af:gridRow>
+         </af:panelGridLayout>
+         <f:facet name="prompt"/>
+        </af:showDetail>
+        <af:showDetail disclosed="true" id="sd2"
+                       undisclosedText="Información de Convenio, Contratoo o Documento Legal">
+         <af:panelGridLayout id="panelGridLayout1">
+          <af:gridRow marginTop="5px" height="auto" id="gridRow2">
+           <af:gridCell marginStart="5px" width="auto" id="gridCell5">
+            <af:inputText label="Número de Contrato" id="inputText2"
+                          readOnly="true" value="00007"/>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell6"/>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell7"/>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell8"/>
+          </af:gridRow>
+          <af:gridRow marginTop="5px" height="auto" id="gridRow3">
+           <af:gridCell marginStart="5px" width="auto" id="gridCell9">
+            <af:inputListOfValues label="Abogado Solicitante"
+                                  popupTitle="Search and Result Dialog"
+                                  id="inputListOfValues1"/>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell10">
+            <af:inputListOfValues label="Cargo"
+                                  popupTitle="Search and Result Dialog"
+                                  id="inputListOfValues2"/>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell11">
+            <af:inputListOfValues label="Planta/Oficina"
+                                  popupTitle="Search and Result Dialog"
+                                  id="inputListOfValues3"/>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell12">
+            <af:inputText label="Extensión" id="inputText3"/>
+           </af:gridCell>
+          </af:gridRow>
+          <af:gridRow marginTop="5px" height="auto" id="gridRow4">
+           <af:gridCell marginStart="5px" width="auto" id="gridCell13">
+            <af:selectOneChoice label="Paí de origen" id="selectOneChoice1">
+             <af:selectItem label="México" value="mx" id="selectItem1"/>
+             <af:selectItem label="Estados Unidos" value="eu" id="selectItem2"/>
+             <af:selectItem label="Colombia" value="co" id="selectItem3"/>
+             <af:selectItem label="Argentina" value="ar" id="selectItem4"/>
+             <af:selectItem label="España" value="es" id="selectItem5"/>
+            </af:selectOneChoice>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell14">
+            <af:selectOneChoice label="Área" id="selectOneChoice2">
+             <af:selectItem label="Región 1" value="r1" id="selectItem6"/>
+             <af:selectItem label="Región 2" value="r2" id="selectItem7"/>
+             <af:selectItem label="Región 3" value="r3" id="selectItem8"/>
+            </af:selectOneChoice>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell15">
+            <af:inputText label="Fecha de inicio" id="inputText4"/>
+            <af:inputText label="Fecha fin" id="inputText5"/>
+            <af:selectOneChoice label="Dirección" id="selectOneChoice3">
+             <af:selectItem label="Dirección Juridica" value="d1"
+                            id="selectItem9"/>
+             <af:selectItem label="Dirección Financiera" value="d2"
+                            id="selectItem10"/>
+             <af:selectItem label="Dirección de Proyectos" value="d3"
+                            id="selectItem11"/>
+            </af:selectOneChoice>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell16">
+            <af:inputListOfValues label="Jefe Inmediato"
+                                  popupTitle="Search and Result Dialog"
+                                  id="inputListOfValues4"/>
+           </af:gridCell>
+          </af:gridRow>
+          <af:gridRow marginTop="5px" marginBottom="5px" height="auto"
+                      id="gridRow5">
+           <af:gridCell marginStart="5px" width="auto" id="gridCell17"/>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell18"/>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell19">
+            <af:commandButton text="Limpiar" id="commandButton1"/>
+           </af:gridCell>
+           <af:gridCell marginStart="5px" width="auto" id="gridCell20">
+            <af:commandButton text="Buscar" id="commandButton2"/>
+           </af:gridCell>
+          </af:gridRow>
+         </af:panelGridLayout>
+        </af:showDetail>
             </af:panelGroupLayout>
           </af:panelGroupLayout>
           </f:facet>

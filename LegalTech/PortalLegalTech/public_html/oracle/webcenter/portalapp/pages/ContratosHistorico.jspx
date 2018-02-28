@@ -36,7 +36,7 @@
               <af:panelGroupLayout id="pgl3" styleClass="AFStretchWidth"
                                    inlineStyle="background-color:Silver;"
                                    layout="horizontal">
-                <af:outputFormatted value="Contratos" id="of1"
+                <af:outputFormatted value="Histórico de Contratos" id="of1"
                                     inlineStyle="font-size:large; "/>
               </af:panelGroupLayout>
                 <af:spacer width="850" height="10" id="s5"/>

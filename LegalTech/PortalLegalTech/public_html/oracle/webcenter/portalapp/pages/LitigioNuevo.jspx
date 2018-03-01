@@ -16,27 +16,27 @@
                                  layout="vertical" inlineStyle="width:166px;"
                                  halign="center" valign="top">
               <af:spacer width="10" height="10" id="s1"/>
-              <af:image source="/images/contrato1.jpg" id="i2"
+              <af:image source="/images/litigio2.jpg" id="i2"
                         inlineStyle="width:100px; height:100.0px;"/>
               <af:spacer width="10" height="10" id="s2"/>
-              <af:commandButton text="Contratos" id="cb2"
+              <af:commandButton text="Litigios" id="cb2"
                                 inlineStyle="width:150px; height:30px; font-size:medium;"
-                                action="Contratos"/>
+                                action="Litigios"/>
               <af:spacer width="10" height="10" id="s3"/>
-              <af:commandButton text="Nuevo contrato" id="cb1"
+              <af:commandButton text="Nuevo Litigio" id="cb1"
                                 inlineStyle="width:150px; height:30px; font-size:medium;"
-                                action="ContratoNuevo"/>
+                                action="LitigioNuevo"/>
               <af:spacer width="10" height="10" id="s4"/>
               <af:commandButton text="Histórico" id="cb3"
                                 inlineStyle="width:150px; height:30px; font-size:medium;"
-                                action="ContratoHistorico"/>
+                                action="LitigioHistorico"/>
             </af:panelGroupLayout>
             <af:panelGroupLayout id="pgl5" layout="vertical"
                                  styleClass="AFStretchWidth">
               <af:panelGroupLayout id="pgl3" styleClass="AFStretchWidth"
                                    inlineStyle="background-color:Silver;"
                                    layout="horizontal">
-                <af:outputFormatted value="Solicitud de Convenios, Contratos y documentos Legales." id="of1"
+                <af:outputFormatted value="Solicitud de Convenios, Litigios y documentos Legales." id="of1"
                                     inlineStyle="font-size:large; "/>
         </af:panelGroupLayout>
         <af:spacer width="850" height="10" id="s5"/>
@@ -45,7 +45,7 @@
          <af:panelGridLayout id="pgl2">
           <af:gridRow marginTop="5px" height="auto" id="gridRow1">
            <af:gridCell marginStart="5px" width="auto" id="gridCell1">
-            <af:inputText label="Número de Contrato" id="inputText1"
+            <af:inputText label="Número de Litigio" id="inputText1"
                           readOnly="true" value="00007"/>
            </af:gridCell>
            <af:gridCell marginStart="5px" width="auto" id="gridCell2"/>
@@ -107,7 +107,7 @@
          <f:facet name="prompt"/>
         </af:showDetail>
         <af:showDetail disclosed="true" id="sd2"
-                       undisclosedText="Información de Convenio, Contratoo o Documento Legal">
+                       undisclosedText="Información de Convenio, Litigioo o Documento Legal">
          <af:panelGridLayout id="panelGridLayout1">
           <af:gridRow marginTop="5px" height="auto" id="gridRow3">
            <af:gridCell marginStart="5px" width="auto" id="gridCell9">
@@ -117,7 +117,7 @@
            </af:gridCell>
            <af:gridCell marginStart="5px" width="auto" id="gridCell10"/>
            <af:gridCell marginStart="5px" width="100px" id="gridCell12">
-            <af:inputText label="Alcance del contrato o servicio" id="it2"
+            <af:inputText label="Alcance del Litigio o servicio" id="it2"
                           rows="5" columns="40"/>
            </af:gridCell>
            <af:gridCell marginStart="5px" width="auto" id="gridCell11"/>

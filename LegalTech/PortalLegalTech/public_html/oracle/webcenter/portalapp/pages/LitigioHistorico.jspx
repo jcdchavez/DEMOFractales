@@ -9,10 +9,10 @@
       <af:form id="f1">
         <af:pageTemplate viewId="/oracle/webcenter/portalapp/pagetemplates/pageTemplate_globe.jspx"
                          value="#{bindings.pageTemplateBinding}" id="pt1">
-          <f:facet name="content">
+           <f:facet name="content">
                     <af:panelGroupLayout id="pgl1" layout="horizontal"
                                styleClass="AFStretchWidth" valign="top">
-            <af:panelGroupLayout id="pgl4" styleClass="AFStretchWidth"
+             <af:panelGroupLayout id="pgl4" styleClass="AFStretchWidth"
                                  layout="vertical" inlineStyle="width:166px;"
                                  halign="center" valign="top">
               <af:spacer width="10" height="10" id="s1"/>
@@ -36,7 +36,7 @@
               <af:panelGroupLayout id="pgl3" styleClass="AFStretchWidth"
                                    inlineStyle="background-color:Silver;"
                                    layout="horizontal">
-                <af:outputFormatted value="Litigios" id="of1"
+                <af:outputFormatted value="Histórico de Litigios" id="of1"
                                     inlineStyle="font-size:large; "/>
               </af:panelGroupLayout>
                 <af:spacer width="850" height="10" id="s5"/>
@@ -53,7 +53,7 @@
                                             id="ilov1"/>
                     </af:gridCell>
                     <af:gridCell marginStart="5px" width="auto" id="gc8">
-                      <af:inputListOfValues label="Entidad Solicitante"
+                      <af:inputListOfValues label="Empresa Solicitante"
                                             popupTitle="Search and Result Dialog"
                                             id="ilov2"/>
                     </af:gridCell>
@@ -117,7 +117,7 @@
                 </af:panelGridLayout>
               </af:showDetail>
               <af:showDetail disclosed="true" id="sd2"
-                             undisclosedText="Litigios existentes"
+                             undisclosedText="Litigios concluidos"
                              styleClass="AFStretchWidth">
                 <af:table var="row" rowBandingInterval="0" id="t1"
                           styleClass="AFStretchWidth">
@@ -131,7 +131,7 @@
                   <af:column sortable="false" headerText="Solicitante" id="c6">
                     <af:outputText value="#{row.col3}" id="ot5"/>
                   </af:column>
-                  <af:column sortable="false" headerText="Entidad solicitante"
+                  <af:column sortable="false" headerText="Empresa solicitante"
                              id="c2">
                     <af:outputText value="#{row.col4}" id="ot1"/>
                   </af:column>

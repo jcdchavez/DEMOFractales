@@ -9,7 +9,159 @@
       <af:form id="f1">
         <af:pageTemplate viewId="/oracle/webcenter/portalapp/pagetemplates/pageTemplate_globe.jspx"
                          value="#{bindings.pageTemplateBinding}" id="pt1">
-          <f:facet name="content"/>
+          <f:facet name="content">
+            <af:group id="g1">
+              <af:panelGroupLayout id="pgl2" layout="horizontal"
+                                   styleClass="AFStretchWidth">
+                <af:panelGroupLayout id="pgl1">
+                  <af:outputFormatted value="Preguntas frecuentes" id="of1"
+                                      inlineStyle="font-size:medium;"/>
+                  <af:panelAccordion id="pa1">
+                    <af:showDetailItem text="Pregunta 1" id="sdi1"/>
+                    <af:showDetailItem text="Pregunta 2" id="sdi2"/>
+                    <af:showDetailItem text="Pregunta 3" id="sdi3"/>
+                    <af:showDetailItem text="Pregunta 4" id="sdi4"/>
+                    <af:showDetailItem text="Pregunta 5" id="sdi5"/>
+                    <af:showDetailItem text="Pregunta 6" id="sdi6"/>
+                  </af:panelAccordion>
+                </af:panelGroupLayout>
+                <af:panelGroupLayout id="pgl3"
+                                     inlineStyle="background-color:White;"
+                                     styleClass="AFStretchWidth">
+                  <af:outputFormatted value="Búsqueda de Documentos" id="of2"
+                                      inlineStyle="color:Navy; font-size:medium;"/>
+                  <af:inputListOfValues label="Nombre"
+                                        popupTitle="Search and Result Dialog"
+                                        id="ilov1"/>
+                  <af:separator id="s1"/>
+                  <af:decorativeBox id="db1">
+                    <f:facet name="center">
+                      <af:panelGroupLayout id="pgl5" layout="scroll">
+                        <af:panelGridLayout id="pgl6">
+                          <af:gridRow marginTop="5px" height="auto" id="gr8">
+                            <af:gridCell marginStart="5px" marginEnd="5px"
+                                         width="100%" id="gc9">
+                              <af:panelGroupLayout id="pgl7"
+                                                   layout="horizontal">
+                                <af:image source="/images/centro_elementia.png"
+                                          id="i2"
+                                          inlineStyle="width:50px; height:50.0px;"/>
+                                <af:outputFormatted value="Documento 1.................."
+                                                    id="of4"/>
+                                <af:commandLink text="Descargar" id="cl1"/>
+                              </af:panelGroupLayout>
+                            </af:gridCell>
+                          </af:gridRow>
+                                                    <af:gridRow marginTop="5px" height="auto"
+                                                                id="gr1">
+                            <af:gridCell marginStart="5px" marginEnd="5px"
+                                         width="100%" id="gc1">
+                              <af:panelGroupLayout id="pgl8"
+                                                   layout="horizontal">
+                                <af:image source="/images/centro_elementia.png"
+                                          id="i3"
+                                          inlineStyle="width:50px; height:50.0px;"/>
+                                <af:outputFormatted value="Documento 2.................."
+                                                    id="of5"/>
+                                <af:commandLink text="Descargar" id="cl2"/>
+                              </af:panelGroupLayout>
+                            </af:gridCell>
+                          </af:gridRow>
+                                                    <af:gridRow marginTop="5px" height="auto"
+                                                                id="gr2">
+                            <af:gridCell marginStart="5px" marginEnd="5px"
+                                         width="100%" id="gc2">
+                              <af:panelGroupLayout id="pgl9"
+                                                   layout="horizontal">
+                                <af:image source="/images/centro_elementia.png"
+                                          id="i4"
+                                          inlineStyle="width:50px; height:50.0px;"/>
+                                <af:outputFormatted value="Documento 3..................."
+                                                    id="of6"/>
+                                <af:commandLink text="Descargar" id="cl3"/>
+                              </af:panelGroupLayout>
+                            </af:gridCell>
+                          </af:gridRow>
+                                                    <af:gridRow marginTop="5px" height="auto"
+                                                                id="gr3">
+                            <af:gridCell marginStart="5px" marginEnd="5px"
+                                         width="100%" id="gc3">
+                              <af:panelGroupLayout id="pgl10"
+                                                   layout="horizontal">
+                                <af:image source="/images/centro_elementia.png"
+                                          id="i5"
+                                          inlineStyle="width:50px; height:50.0px;"/>
+                                <af:outputFormatted value="Documento 4..................."
+                                                    id="of7"/>
+                                <af:commandLink text="Descargar" id="cl4"/>
+                              </af:panelGroupLayout>
+                            </af:gridCell>
+                          </af:gridRow>
+                                                    <af:gridRow marginTop="5px" height="auto"
+                                                                id="gr4">
+                            <af:gridCell marginStart="5px" marginEnd="5px"
+                                         width="100%" id="gc4">
+                              <af:panelGroupLayout id="pgl11"
+                                                   layout="horizontal">
+                                <af:image source="/images/centro_elementia.png"
+                                          id="i6"
+                                          inlineStyle="width:50px; height:50.0px;"/>
+                                <af:outputFormatted value="Documento 5..................."
+                                                    id="of8"/>
+                                <af:commandLink text="Descargar" id="cl5"/>
+                              </af:panelGroupLayout>
+                            </af:gridCell>
+                          </af:gridRow>
+                                                    <af:gridRow marginTop="5px" height="auto"
+                                                                id="gr5">
+                            <af:gridCell marginStart="5px" marginEnd="5px"
+                                         width="100%" id="gc5">
+                              <af:panelGroupLayout id="pgl12"
+                                                   layout="horizontal">
+                                <af:image source="/images/centro_elementia.png"
+                                          id="i7"
+                                          inlineStyle="width:50px; height:50.0px;"/>
+                                <af:outputFormatted value="Documento 6..................."
+                                                    id="of9"/>
+                                <af:commandLink text="Descargar" id="cl6"/>
+                              </af:panelGroupLayout>
+                            </af:gridCell>
+                          </af:gridRow>
+                                                    <af:gridRow marginTop="5px" height="auto"
+                                                                id="gr6">
+                            <af:gridCell marginStart="5px" marginEnd="5px"
+                                         width="100%" id="gc6">
+                              <af:panelGroupLayout id="pgl13"
+                                                   layout="horizontal">
+                                <af:image source="/images/centro_elementia.png"
+                                          id="i8"
+                                          inlineStyle="width:50px; height:50.0px;"/>
+                                <af:outputFormatted value="Documento 1                   ."
+                                                    id="of10"/>
+                                <af:commandLink text="Descargar" id="cl7"/>
+                              </af:panelGroupLayout>
+                            </af:gridCell>
+                          </af:gridRow>
+                          
+                        </af:panelGridLayout>
+                      </af:panelGroupLayout>
+                    </f:facet>
+                    <f:facet name="top">
+                      <af:panelGroupLayout layout="horizontal"
+                                           xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+                                           id="pgl4"
+                                           styleClass="AFStretchWidth">
+                        <af:image source="/images/contrato1.jpg" id="i1"
+                                  inlineStyle="width:50px; height:50.0px;"/>
+                        <af:outputFormatted value="Resultados" id="of3"
+                                            inlineStyle="color:Navy; font-size:medium;"/>
+                      </af:panelGroupLayout>
+                    </f:facet>
+                  </af:decorativeBox>
+                </af:panelGroupLayout>
+              </af:panelGroupLayout>
+            </af:group>
+          </f:facet>
         </af:pageTemplate>
       </af:form>
     </af:document>

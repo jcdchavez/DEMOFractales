@@ -24,6 +24,12 @@
   <view id="ContratosNuevo">
     <page>/oracle/webcenter/portalapp/pages/ContratosNuevo.jspx</page>
   </view>
+  <view id="LitigioNuevo">
+    <page>/oracle/webcenter/portalapp/pages/LitigioNuevo.jspx</page>
+  </view>
+  <view id="LitigioHistorico">
+    <page>/oracle/webcenter/portalapp/pages/LitigioHistorico.jspx</page>
+  </view>
   <control-flow-rule id="__2">
     <from-activity-id id="__1">*</from-activity-id>
     <control-flow-case id="__3">
@@ -57,6 +63,14 @@
     <control-flow-case id="__30">
       <from-outcome id="__31">ContratoHistorico</from-outcome>
       <to-activity-id id="__29">ContratosHistorico</to-activity-id>
+    </control-flow-case>
+    <control-flow-case id="__21">
+      <from-outcome id="__23">LitigioHistorico</from-outcome>
+      <to-activity-id id="__22">LitigioHistorico</to-activity-id>
+    </control-flow-case>
+    <control-flow-case id="__25">
+      <from-outcome id="__32">LitigioNuevo</from-outcome>
+      <to-activity-id id="__24">LitigioNuevo</to-activity-id>
     </control-flow-case>
   </control-flow-rule>
 </adfc-config>

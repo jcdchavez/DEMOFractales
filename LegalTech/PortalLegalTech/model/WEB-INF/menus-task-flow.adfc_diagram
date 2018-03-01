@@ -96,9 +96,9 @@
       <property
          name="page">/oracle/webcenter/portalapp/pages/PropiedadIntelectual.jspx</property>
       <property
-         name="thumbnailExpanded">false</property>
-      <property
          name="description">&lt;html>&lt;p>&lt;b>PropiedadIntelectual&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="thumbnailExpanded">false</property>
       <property
          name="exceptionHandler">false</property>
       <property
@@ -124,7 +124,7 @@
       <property
          name="fromOutcome">Litigios</property>
       <property
-         name="sdm:polyPoints">R55,431.0,62.097656,612.5,168.74707,T50</property>
+         name="sdm:polyPoints">R55,432.99738,62.097656,612.5,168.74707,T50</property>
    </ControlFlowCase>
    <ControlFlowCase
       islink="true"
@@ -215,5 +215,55 @@
          name="fromOutcome">ContratoHistorico</property>
       <property
          name="sdm:polyPoints">B36,388.0,101.09766,204.35059,266.74707,T50</property>
+   </ControlFlowCase>
+   <View
+      id="View20">
+      <property
+         name="activityId">LitigioNuevo</property>
+      <property
+         name="page">/oracle/webcenter/portalapp/pages/LitigioNuevo.jspx</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>LitigioNuevo&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">268.79883</property>
+      <property
+         name="x">776.0205</property>
+   </View>
+   <View
+      id="View21">
+      <property
+         name="activityId">LitigioHistorico</property>
+      <property
+         name="page">/oracle/webcenter/portalapp/pages/LitigioHistorico.jspx</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>LitigioHistorico&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">170.09766</property>
+      <property
+         name="x">788.01465</property>
+   </View>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase22"
+      from="WildcardControlFlowRule2"
+      to="View21">
+      <property
+         name="fromOutcome">LitigioHistorico</property>
+      <property
+         name="sdm:polyPoints">R45,434.56482,55.097656,747.01465,169.74707,L50</property>
+   </ControlFlowCase>
+   <ControlFlowCase
+      islink="true"
+      id="ControlFlowCase23"
+      from="WildcardControlFlowRule2"
+      to="View20">
+      <property
+         name="fromOutcome">LitigioNuevo</property>
+      <property
+         name="sdm:polyPoints">R66,431.0,69.09766,735.0205,268.44824,L50</property>
    </ControlFlowCase>
 </SDM>
